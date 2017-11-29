@@ -6,9 +6,11 @@ namespace ObjectOrientedProgramming
     {
         static void Main(string[] args)
         {
+            var c = new Man();
+            c.turnon();
 
-            int squareme = 5;
-            Console.WriteLine(Calculate.Square(squareme));
+            //int squareme = 5;
+            //Console.WriteLine(Calculate.Square(squareme));
             //var car = new Vehicle();
             //car.PressHorn();
             // Console.WriteLine(car.ToString());
