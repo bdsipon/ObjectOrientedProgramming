@@ -6,8 +6,17 @@ namespace ObjectOrientedProgramming
     {
         static void Main(string[] args)
         {
-            var c = new Man();
-            c.turnon();
+            var output = new Multiplication();
+            output.mul();
+
+            //var sw = new SwapNumber();
+            //sw.swap();
+            //var data = new InputData();
+            //var cal = new Calculation();
+
+            //double firstNumber, secondNumber;
+            //string operation;
+            //firstNumber= InputData.input
 
             //int squareme = 5;
             //Console.WriteLine(Calculate.Square(squareme));
