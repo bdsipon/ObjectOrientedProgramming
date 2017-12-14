@@ -6,8 +6,8 @@ namespace ObjectOrientedProgramming
     {
         static void Main(string[] args)
         {
-            var output = new Multiplication();
-            output.mul();
+            var output = new Linq();
+            output.lina();
 
             //var sw = new SwapNumber();
             //sw.swap();
