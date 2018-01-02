@@ -10,6 +10,17 @@ namespace Interview
     {
         static void Main(string[] args)
         {
+            // Abstraction
+            //var mydog = new Dog();
+            //mydog.Eat();
+            //Animal mypet = mydog;
+            //mypet.Eat();
+            //mydog.Sound();
+
+            var Vehicle = new Polymorphism();
+            Vehicle.TyreSize();
+
+            Console.ReadLine();
         }
     }
 }

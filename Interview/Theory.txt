@@ -13,5 +13,52 @@ It is a real world entity such as pen,table etc.
 
 4.Abstraction
 
+It is a process which shows the relevant information to the specific user without
+showing unnecessary information.
+
+5. Abstract Class:
+
+* An abstract base class can not be instantiated.
+* It mush be a derived class.
+* This class has no implemenation.
+
+6.Abstract Method
+
+* Abstract method always has incomplete and no body implementation.
+* It must be overide method in child class.
 
 
+
+7. Encapsulation 
+
+It is the process of hiding irrelevant data from the user.
+
+8. Access Modifier
+
+public : use for any class.
+private: It uses for specific class.
+Protected: It uses for specific class and derived class.
+Internal: It hides variables and methods from other namespace.
+
+The get set accessor mostly used for storing and retrieving value from the private field. 
+The get accessor muct return  a value of property type where set accesssor returns void. 
+The set accessor uses an implicit parameter called value. In simple word, the get method used 
+for retrieving value from private field whereas set method used for storing value in private variables.
+
+9. Polymorphism
+
+It allows an entity in multiple forms. One interface divided into multiple functions.
+
+Polymorphism has two types: static polymorphism or function overloading and dynamic polymorphism function override.
+
+10.Virtual Method
+
+It gives flexibility to direct use of virtual method or add additional functionality in it by overriding it.
+Virtual method can be overriden or cannot be overridden by child class. 
+
+11. Interface
+
+It describes functionality and C# supports multiple interface.
+
+12. Sealed
+It is used to protect a class from any inheritance chance.
