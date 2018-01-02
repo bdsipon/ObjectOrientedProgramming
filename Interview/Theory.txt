@@ -1,0 +1,17 @@
+﻿
+1. OOP
+Object Oriented Programming: It is a technique that develops logical module.
+It simplifies the software development and maintenance by providing some concepts:
+Object, Class, Encapsulation, Abstraction, Polymorphism and Inheritance.
+
+2. Class
+Class is a blueprint of object which contain
+data member,properties,constructor, and methods.
+
+3. Object
+It is a real world entity such as pen,table etc.
+
+4.Abstraction
+
+
+
