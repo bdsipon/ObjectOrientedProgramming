@@ -17,8 +17,12 @@ namespace Interview
             //mypet.Eat();
             //mydog.Sound();
 
-            var Vehicle = new Polymorphism();
-            Vehicle.TyreSize();
+            //var Vehicle = new Polymorphism();
+            //Vehicle.TyreSize();
+
+            var gen = new Generics();
+            gen.GenericList();
+            gen.GenericDictionary();
 
             Console.ReadLine();
         }

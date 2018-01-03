@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Abstraction.cs" />
     <Compile Include="Encapsulation.cs" />
+    <Compile Include="Generics.cs" />
     <Compile Include="GET_SET.cs" />
     <Compile Include="Polymorphism.cs" />
     <Compile Include="Program.cs" />

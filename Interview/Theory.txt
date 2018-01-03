@@ -62,3 +62,26 @@ It describes functionality and C# supports multiple interface.
 
 12. Sealed
 It is used to protect a class from any inheritance chance.
+
+13. Generics
+
+Generics improves code resuability, type safety and performance. Generics
+are the that type class which has placeholder instead of datatypes.
+
+Dictionary: It is a collection of keys and values. We bind values with keys and store them in 
+dictionary and later that key is used for accssing dictionary value.
+
+14. Static Constructor
+
+It is used to initialize any statc data.
+It does not take access modifiers or have parameters.
+
+15. Enum keyword is used to declare an enumeration, a distinct type that consists of 
+set of named constants called the enumerator list.
+
+16. Constructor
+
+A constructor is a special method which is used to initialize object.
+
+17. Destructor
+
