@@ -8,14 +8,24 @@ namespace Interview
 {
     class Encapsulation
     {
-        //string variable declared as private
-        private string Name;
+        private static  string name;
 
-        public void print()
+
+
+        public string Name
         {
-
-            Console.WriteLine("\nmy name is" + Name);
-
+            get
+            {
+                return name;
+            }
+            set
+            {
+                name = value;
+            }
+        }
+     public void print()
+        {
+            Console.WriteLine("My name is " + name);
         }
     }
 }
