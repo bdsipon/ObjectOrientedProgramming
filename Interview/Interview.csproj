@@ -43,9 +43,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstraction.cs" />
+    <Compile Include="Conditional.cs" />
+    <Compile Include="ConditionalExample.cs" />
     <Compile Include="Encapsulation.cs" />
     <Compile Include="Generics.cs" />
     <Compile Include="GET_SET.cs" />
+    <Compile Include="LoopConstruct.cs" />
     <Compile Include="Onebyall.cs" />
     <Compile Include="Polymorphism.cs" />
     <Compile Include="Program.cs" />

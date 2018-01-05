@@ -8,35 +8,42 @@ namespace Interview
 {
     class Program
     {
-        public enum attendance
-        {
-            Monday,
-            Tuesday,
-            Wednesday,
-            Thursday,
-            Friday
-        }
+        //public enum attendance
+        //{
+        //    Monday,
+        //    Tuesday,
+        //    Wednesday,
+        //    Thursday,
+        //    Friday
+        //}
 
-        struct book{
-            public string Firstname;
-           public string Secondname;
+        //struct book{
+        //    public string Firstname;
+        //   public string Secondname;
 
 
-        }
+        //}
         static void Main(string[] args)
         {
-            attendance present = attendance.Monday;
-            Console.WriteLine(present);
-            book language, writer;
+        //    attendance present = attendance.Monday;
+        //    Console.WriteLine(present);
+        //    book language, writer;
 
-            language.Firstname = Console.ReadLine();
-            writer.Secondname = Console.ReadLine();
+        //    language.Firstname = Console.ReadLine();
+        //    writer.Secondname = Console.ReadLine();
 
 
 
-            Console.WriteLine("{0}/n{1}", language.Firstname,writer.Secondname);
+        //    Console.WriteLine("{0}/n{1}", language.Firstname,writer.Secondname);
             
            
+            var first = new LoopConstruct();
+            //first.whiles();
+            // first.do_while();
+            // first.for_loop();
+            first.for_each();
+
+
             var inter = new derived();
             inter.Test();
             inter.Test1();
@@ -60,9 +67,15 @@ namespace Interview
             cons.hidden();
 
 
-            var en = new Encapsulation();
-            en.Name = Console.ReadLine();
-            en.print();
+            //var en = new Encapsulation();
+            //en.Name = Console.ReadLine();
+            //en.print();
+
+            var con= new Conditional();
+          //  con.switches();
+            con.calculation();
+
+
 
             Console.ReadLine();
         }
